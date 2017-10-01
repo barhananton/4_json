@@ -4,7 +4,7 @@ import os
 
 # загружаем файл, проверяем, что он существует.
 
-def load_data(filepath):
+def load_data_json(filepath):
     if not os.path.exists(filepath):
         return print("Ошибка чтения файла. Проверьте его наличие по заданному пути")
     else:
@@ -18,7 +18,7 @@ def pretty_print_json(data):
 
 if __name__ == '__main__':
     file_path = input("Введите имя и путь до файла:")
-    json_file_content = load_data(file_path)
+    json_file_content = load_data_json(file_path)
     if json_file_content:
         pretty_print_json(json_file_content)
     else:
