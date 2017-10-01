@@ -1,19 +1,12 @@
 # Prettify JSON
 
-[TODO. There will be project description]
+Позволяет вывести JSON красиво.
 
 # Quickstart
 
-[TODO]
+На входе необходимо ввести путь и имя файла
 
-Example of script launch on Linux, Python 3.5:
-
-```#!bash
-
-$ python pprint_json.py <path to file>
-# TODO add output example
-
-```
+В случае, если все ок, то в консоль будет выведен JSON в красивом виде. Максимальный уровень -4
 
 # Project Goals
 
