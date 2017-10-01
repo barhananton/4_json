@@ -1,12 +1,12 @@
 # Prettify JSON
 
-Позволяет вывести JSON красиво.
+Just prettify your JSON
 
 # Quickstart
 
-На входе необходимо ввести путь и имя файла
-
-В случае, если все ок, то в консоль будет выведен JSON в красивом виде. Максимальный уровень -4
+start `python3 pprint_json.py`
+when print on console filepath&file name.
+If file exist you see your beautiful JSON :-)   
 
 # Project Goals
 
